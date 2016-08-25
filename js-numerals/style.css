@@ -2,6 +2,7 @@
 	height: 100vh;
 	position: relative;
 	text-align: center;
+	background-color: #eee;
 }
 
 #main-form {
@@ -19,4 +20,44 @@
 	display: inline-block;
 	width: 100%;
 	margin: 10px 0;
+}
+
+#arabic-input {
+	border-radius: 10px;
+	outline: none;
+	border: 2px solid #77AF9C;
+	height: 50px;
+	padding: 5px 10px;
+	color: #888;
+	font-weight: bold;
+}
+
+#arabic-input:focus,
+#arabic-input:hover {
+	border-color: #8CD790;
+}
+
+#final-phrase {
+	font-style: italic;
+	color: #888;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+#submit-btn {
+	height: 50px;
+	background-color: #77AF9C;
+	border: none;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: 18px;
+	color: #fff;
+	outline: none;
+	transition: all .2s ease-in-out;
+}
+
+#submit-btn:hover {
+	color: #666;
+	background-color: #8CD790;
 }
